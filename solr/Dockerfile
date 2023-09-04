@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-stretch
+FROM eclipse-temurin:8u382-b05-jre
 
 RUN apt-get update && apt-get install procps -y
 
